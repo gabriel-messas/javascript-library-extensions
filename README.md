@@ -28,3 +28,18 @@ I18nModule.forRoot({
 ```
 
 ---
+
+### mat-paginator-i18n-service.ts
+Internationalization service with ngx-translate for mat-paginator component
+
+- ***ngx-translate must have already been set up and initialized in the project***. Example:
+```
+{
+    provide: APP_INITIALIZER,
+    useFactory: appInitializerFactory,
+    deps: [ TranslateService ],
+    multi: true
+},
+```
+
+---
